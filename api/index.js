@@ -16,13 +16,13 @@ export default function handler(req, res) {
         toDate: '2025/01/06',
         storeName: ['BÚN CANH', 'BÁNH CANH', 'BÁNH HẸ'],
         merchantName: 'Capu capu',
-        transSuccessAmount: 20_000,
-        transSuccessCount: 2,
-        netRevenueAmount: 17_000,
-        costAmount: 1_000,
-        payableAmount: 2_000,
-        inPendingAmount: 5_000,
-        inPendingCount: 1
+        successTransAmount: 20_000,
+        successTransCount: 2,
+        netRevenue: 17_000,
+        feeAmount: 1_000,
+        totalPayableFee: 2_000,
+        pendingTransAmount: 5_000,
+        pendingTransCount: 1
       }
     },
 
@@ -34,13 +34,13 @@ export default function handler(req, res) {
         toDate: '2025/01/08',
         storeName: ['BÚN CANH', 'BÁNH CANH', 'BÁNH HẸ'],
         merchantName: 'Capu capu',
-        transSuccessAmount: 10_000_000,
-        transSuccessCount: 20,
-        netRevenueAmount: 9_970_000,
-        costAmount: 10_000,
-        payableAmount: 20_000,
-        inPendingAmount: 1_500_000,
-        inPendingCount: 11
+        successTransAmount: 10_000_000,
+        successTransCount: 20,
+        netRevenue: 9_970_000,
+        feeAmount: 10_000,
+        totalPayableFee: 20_000,
+        pendingTransAmount: 1_500_000,
+        pendingTransCount: 11
       }
     }
   };
