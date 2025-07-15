@@ -67,7 +67,7 @@ export default function handler(req, res) {
             template: "TTTC_1",
             type: "ranking",
             description: "Phương thức nhận tiền - Ngày (19/05)",
-            backgroundImage: "https://static.momocdn.net/app/img/expense/Native_Home_MoMo/Image_BG_Top_Categories.jpg",
+            backgroundImage: "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_money_source_revenue.png",
             card: {
               actions: [
                 {
@@ -91,17 +91,17 @@ export default function handler(req, res) {
               {
                 label: "MOMO",
                 value: "61%",
-                icon: "https://static.momocdn.net/app/img/QLCT/TienNhaCua.png"
+                icon: "https://static.momocdn.net/app/img/merchant_template/ic_momo_3.png"
               },
               {
                 label: "BANK",
                 value: "31%",
-                icon: "https://static.momocdn.net/app/img/QLCT/AnHangQuan.png"
+                icon: "https://static.momocdn.net/app/img/merchant_template/ic_bank_1.png"
               },
               {
                 label: "CASH",
                 value: "2%",
-                icon: "https://static.momocdn.net/app/img/QLCT/TaxiXeOm.png"
+                icon: "https://static.momocdn.net/app/img/merchant_template/ic_cash_1.png"
               }
             ]
           },
@@ -116,9 +116,9 @@ export default function handler(req, res) {
               content: "110.000.000đ",
               color: "#000000"
             },
-            backgroundImage: "https://static.momocdn.net/app/img/expense/Native_Home_MoMo/Image_BG_Add.jpg",
+            backgroundImage: "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
             quantityLabel: {
-              icon: "up_arrow",
+              icon: "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_down_revenue.png",
               content: "9.869.599",
               color: "#FF0000"
             },
@@ -154,7 +154,7 @@ export default function handler(req, res) {
               content: "Xu hướng doanh thu",
               color: "#303233"
             },
-            backgroundImage: "https://static.momocdn.net/app/img/expense/Native_Home_MoMo/Image_BG_Add.jpg",
+            backgroundImage: "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
             quantityLabel: {
               icon: "",
               content: "",
