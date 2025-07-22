@@ -11,8 +11,7 @@ export default function handler(req, res) {
                 {
                     "actionType": "REDIRECT",
                     "featureCode": "merchant_financia_assistant",
-                    "params": {
-                    }
+                    "params": null
                 }
             ]
         },
@@ -21,70 +20,19 @@ export default function handler(req, res) {
         "itemData": [
             {
                 "itemId": "",
-                "itemName": "TTTC_MONEY_SOURCE",
-                "template": "TTTC_1",
-                "type": "ranking",
-                "description": "Phương thức nhận tiền - Tuần (21/07-22/07)",
-                "subDescription": null,
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_money_source_revenue.png",
-                "quantityLabel": null,
-                "items": [
-                    {
-                        "label": "Tiền mặt",
-                        "value": "50%",
-                        "icon": "https://static.momocdn.net/app/img/merchant_template/ic_cash_1.png"
-                    },
-                    {
-                        "label": "Ngân hàng",
-                        "value": "25%",
-                        "icon": "https://static.momocdn.net/app/img/merchant_template/ic_bank_1.png"
-                    },
-                    {
-                        "label": "Khác",
-                        "value": "25%",
-                        "icon": "https://static.momocdn.net/app/img/merchant_template/img_other_2.png"
-                    }
-                ],
-                "card": {
-                    "actions": [
-                        {
-                            "actionType": "REDIRECT",
-                            "featureCode": "merchant_financia_assistant",
-                            "params": {
-                                "targetRef": null
-                            }
-                        }
-                    ]
-                },
-                "trackify": {
-                    "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_financia_assistant",
-                    "screen_name": "momo_home",
-                    "component_name": "widget_native",
-                    "component_type": "widget",
-                    "block_name": "merchant_financia_assistant"
-                },
-                "titleInformation": null
-            },
-            {
-                "itemId": "",
-                "itemName": "TTTC_REVENUE",
-                "template": "TTTC_2",
+                "itemName": "TTTC_CTA",
+                "template": null,
                 "type": "information",
-                "description": "Doanh thu tuần (22/07-22/07)",
-                "subDescription": "So với cùng ký tuần trước.",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
-                "quantityLabel": {
-                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "60.000đ",
-                    "color": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png"
-                },
+                "description": "Ghi chép GD",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
+                "quantityLabel": null,
                 "items": null,
                 "card": {
                     "actions": [
                         {
                             "actionType": "REDIRECT",
-                            "featureCode": "merchant_financia_assistant",
+                            "featureCode": "merchant_add_transaction",
                             "params": {
                                 "targetRef": null
                             }
@@ -101,14 +49,49 @@ export default function handler(req, res) {
                 },
                 "titleInformation": {
                     "icon": null,
-                    "content": "60.000đ",
+                    "content": "Hôm nay chưa có ghi chép",
                     "color": "#000000"
                 }
             },
             {
                 "itemId": "",
-                "itemName": "TTTC_CTA",
-                "template": "TTTC_3",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Xem phân tích",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
+                "quantityLabel": null,
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "actionType": "REDIRECT",
+                            "featureCode": "merchant_revenue_trend",
+                            "params": {
+                                "targetRef": null
+                            }
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_revenue_trend",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_revenue_trend"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "Xu hướng doanh thu",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
                 "type": "information",
                 "description": "Xem phân tích",
                 "subDescription": null,
