@@ -5,9 +5,20 @@ export default function handler(req, res) {
     "status_code": 200,
     "message": "Success",
     "data": {
-        "headerCta": null,
-        "icon": null,
-        "title": null,
+        "headerCta": {
+          "ctaType": "ICON",
+          "actions": [
+            {
+              "params": {
+
+              },
+              "actionType": "REDIRECT",
+              "featureCode": "tttc"
+            }
+          ]
+        },
+        "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
+        "title": "Trợ thủ tài chính",
         "itemData": [
             {
                 "itemId": "",
@@ -170,8 +181,8 @@ const jsObject = JSON.parse(jsonString);
         pendingTransCount: 11
       }
     },
-    d: jsObject,
-    c: {
+    c: jsObject,
+    d: {
       status_code: 200,
       message: "Success",
       data: {
