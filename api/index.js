@@ -6,19 +6,17 @@ export default function handler(req, res) {
     "message": "Success",
     "data": {
         "headerCta": {
-          "ctaType": "ICON",
-          "actions": [
-            {
-              "params": {
-
-              },
-              "actionType": "REDIRECT",
-              "featureCode": "merchant_financia_assistant"
-            }
-          ]
+            "ctaType": "ICON",
+            "actions": [
+                {
+                    "actionType": "REDIRECT",
+                    "featureCode": "merchant_financia_assistant",
+                    "params": null
+                }
+            ]
         },
         "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
-        "title": "Trợ thủ tài chính",
+        "title": null,
         "itemData": [
             {
                 "itemId": "",
@@ -109,18 +107,18 @@ export default function handler(req, res) {
             {
                 "itemId": "",
                 "itemName": "TTTC_CTA",
-                "template": "TTTC_2",
+                "template": "TTTC_3",
                 "type": "information",
-                "description": "Ghi chép GD",
+                "description": "Xem phân tích",
                 "subDescription": null,
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
                 "quantityLabel": null,
                 "items": null,
                 "card": {
                     "actions": [
                         {
                             "actionType": "REDIRECT",
-                            "featureCode": "merchant_add_transaction",
+                            "featureCode": "merchant_revenue_trend",
                             "params": {
                                 "targetRef": null
                             }
@@ -129,15 +127,15 @@ export default function handler(req, res) {
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_add_transaction",
+                    "service_name": "merchant_revenue_trend",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_add_transaction"
+                    "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
                     "icon": null,
-                    "content": "Hôm nay chưa có ghi chép",
+                    "content": "Xu hướng doanh thu",
                     "color": "#000000"
                 }
             }
