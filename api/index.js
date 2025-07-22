@@ -17,7 +17,7 @@ export default function handler(req, res) {
             ]
         },
         "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
-        "title": null,
+        "title": "Trợ thủ tài chính",
         "itemData": [
             {
                 "itemId": "",
