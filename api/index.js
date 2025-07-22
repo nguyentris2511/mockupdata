@@ -22,7 +22,7 @@ export default function handler(req, res) {
         "itemData": [
             {
                 "itemId": "",
-                "itemName": "TTTC_1",
+                "itemName": "",
                 "template": "TTTC_1",
                 "type": "ranking",
                 "description": "Phương thức nhận tiền - Tuần (21/07-22/07)",
@@ -69,7 +69,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": "",
-                "itemName": "TTTC_2",
+                "itemName": "",
                 "template": "TTTC_2",
                 "type": "information",
                 "description": "Doanh thu ngày (22/07)",
