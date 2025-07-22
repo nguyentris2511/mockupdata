@@ -6,8 +6,12 @@ export default function handler(req, res) {
     "message": "Success",
     "data": {
         "headerCta": {
-            "ctaType": null,
-            "actions": null
+            "ctaType": "ICON",
+            "actions": {
+                "actionType": "REDIRECT",
+                "featureCode": "merchant_financia_assistant",
+                "params": null
+            }
         },
         "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
         "title": null,
@@ -101,18 +105,18 @@ export default function handler(req, res) {
             {
                 "itemId": "",
                 "itemName": "TTTC_CTA",
-                "template": "TTTC_3",
+                "template": "TTTC_2",
                 "type": "information",
-                "description": "Đến với",
+                "description": "Ghi chép GD",
                 "subDescription": null,
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
                 "quantityLabel": null,
                 "items": null,
                 "card": {
                     "actions": [
                         {
                             "actionType": "REDIRECT",
-                            "featureCode": "merchant_financia_assistant",
+                            "featureCode": "merchant_add_transaction",
                             "params": {
                                 "targetRef": null
                             }
@@ -129,7 +133,7 @@ export default function handler(req, res) {
                 },
                 "titleInformation": {
                     "icon": null,
-                    "content": "Sổ thu chi",
+                    "content": "Hôm nay chưa có ghi chép",
                     "color": "#000000"
                 }
             }
