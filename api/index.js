@@ -10,7 +10,9 @@ export default function handler(req, res) {
             "actions": {
                 "actionType": "REDIRECT",
                 "featureCode": "merchant_financia_assistant",
-                "params": null
+                "params": {
+                    "targetRef": null
+                }
             }
         },
         "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
