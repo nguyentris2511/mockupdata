@@ -6,6 +6,16 @@ export default function handler(req, res) {
     "message": "Success",
     "data": {
         "headerCta": {
+          "ctaType": "ICON",
+          "actions": [
+            {
+              "params": {
+
+              },
+              "actionType": "REDIRECT",
+              "featureCode": "merchant_financia_assistant"
+            }
+          ]
         },
         "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
         "title": "Trợ thủ tài chính",
