@@ -29,12 +29,12 @@ export default function handler(req, res) {
                     },
                     {
                         "label": "Ngân hàng",
-                        "value": "25%",
+                        "value": "26%",
                         "icon": "https://static.momocdn.net/app/img/merchant_template/ic_bank_1.png"
                     },
                     {
                         "label": "Khác",
-                        "value": "25%",
+                        "value": "24%",
                         "icon": "https://static.momocdn.net/app/img/merchant_template/img_other_2.png"
                     }
                 ],
