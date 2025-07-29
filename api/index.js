@@ -10,8 +10,7 @@ export default function handler(req, res) {
             "actions": [
                 {
                     "actionType": "REDIRECT",
-                    "featureCode": "merchant_financia_assistant",
-                    "params": null
+                    "featureCode": "merchant_financia_assistant"
                 }
             ]
         },
