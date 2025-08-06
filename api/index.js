@@ -9,8 +9,8 @@ export default function handler(req, res) {
             "ctaType": "ICON",
             "actions": [
                 {
-                    "actionType": "REDIRECT",
-                    "featureCode": "merchant_financia_assistant"
+                    "action_type": "REDIRECT",
+                    "ref_id": "merchant_financia_assistant"
                 }
             ]
         },
@@ -46,8 +46,8 @@ export default function handler(req, res) {
                 "card": {
                     "actions": [
                         {
-                            "actionType": "REDIRECT",
-                            "featureCode": "merchant_financia_assistant"
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_financia_assistant"
                         }
                     ]
                 },
@@ -78,8 +78,8 @@ export default function handler(req, res) {
                 "card": {
                     "actions": [
                         {
-                            "actionType": "REDIRECT",
-                            "featureCode": "merchant_financia_assistant",
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_financia_assistant",
                             "params": {
                                 "targetRef": null
                             }
@@ -113,8 +113,8 @@ export default function handler(req, res) {
                 "card": {
                     "actions": [
                         {
-                            "actionType": "REDIRECT",
-                            "featureCode": "merchant_add_transaction",
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_add_transaction",
                             "params": {
                                 "targetRef": null
                             }
@@ -185,8 +185,8 @@ const jsObject = JSON.parse(jsonString);
           actions: [
             {
               params: {},
-              actionType: "REDIRECT",
-              featureCode: "tttc"
+              action_type: "REDIRECT",
+              ref_id: "tttc"
             }
           ]
         },
@@ -211,8 +211,8 @@ const jsObject = JSON.parse(jsonString);
             card: {
               actions: [
                 {
-                  actionType: "REDIRECT",
-                  featureCode: "tttc",
+                  action_type: "REDIRECT",
+                  ref_id: "tttc",
                   params: {
                     targetRef: "enter_trans_tttc"
                   }
@@ -266,8 +266,8 @@ const jsObject = JSON.parse(jsonString);
             card: {
               actions: [
                 {
-                  actionType: "REDIRECT",
-                  featureCode: "tttc",
+                  action_type: "REDIRECT",
+                  ref_id: "tttc",
                   params: {
                     targetRef: "enter_trans_tttc"
                   }
@@ -303,8 +303,8 @@ const jsObject = JSON.parse(jsonString);
             card: {
               actions: [
                 {
-                  actionType: "REDIRECT",
-                  featureCode: "tttc",
+                  action_type: "REDIRECT",
+                  ref_id: "tttc",
                   params: {
                     targetRef: "enter_trans_tttc"
                   }
