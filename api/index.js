@@ -76,7 +76,7 @@ export default function handler(req, res) {
                     "icon": null,
                     "content": "80",
                     "color": "#000000"
-                }
+                },
                 "quantityLabel": {
                     "icon": null,
                     "content": "Kiểm tra giao dịch",
