@@ -44,7 +44,7 @@ export default function handler(req, res) {
                 "titleInformation": {
                     "icon": null,
                     "content": "20.000đ",
-                    "color": "#000000"
+                    "color": "#ea1392"
                 }
             },
             {
@@ -82,7 +82,7 @@ export default function handler(req, res) {
                 "quantityLabel": {
                     "icon": null,
                     "content": "Kiểm tra giao dịch",
-                    "color": "#0000FF"
+                    "color": "rgba(0, 0, 255, 1)"
                 }
             },
             {
@@ -117,7 +117,7 @@ export default function handler(req, res) {
                 "titleInformation": {
                     "icon": null,
                     "content": "Tháng 8",
-                    "color": "#000000"
+                    "color": "#ea1392"
                 }
             }
         ]
