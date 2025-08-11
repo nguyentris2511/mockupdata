@@ -133,9 +133,11 @@ export default function handler(req, res) {
 const jsObjectE = JSON.parse(jsonStringE);
 
 const jsonStringF = `{
-    "status_code": 400,
-    "message": "Unauthorize",
-    "data": null
+    "status_code": 200,
+    "message": "Success",
+    "data": {
+        "status": 0
+    }
 }`;
 const jsObjectF = JSON.parse(jsonStringF);
 
