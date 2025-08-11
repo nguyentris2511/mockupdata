@@ -53,7 +53,6 @@ export default function handler(req, res) {
                 "template": null,
                 "type": "information",
                 "description": "Giao dịch hôm nay",
-                "subDescription": "So với hôm qua",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trans_bg.png",
                 "items": null,
                 "card": {
@@ -80,6 +79,11 @@ export default function handler(req, res) {
                     "content": "80",
                     "color": "#000000"
                 }
+                "quantityLabel": {
+                    "icon": null,
+                    "content": "Kiểm tra giao dịch",
+                    "color": "#0000FF"
+                },
             },
             {
                 "itemId": "",
