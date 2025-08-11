@@ -23,13 +23,7 @@ export default function handler(req, res) {
                 "template": null,
                 "type": "information",
                 "description": "Doanh thu hôm nay",
-                "subDescription": "So với hôm qua",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
-                "quantityLabel": {
-                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "10.000đ",
-                    "color": "#008000"
-                },
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
                 "items": null,
                 "card": {
                     "actions": [
@@ -60,12 +54,7 @@ export default function handler(req, res) {
                 "type": "information",
                 "description": "Giao dịch hôm nay",
                 "subDescription": "So với hôm qua",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
-                "quantityLabel": {
-                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "50",
-                    "color": "#008000"
-                },
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trans_bg.png",
                 "items": null,
                 "card": {
                     "actions": [
@@ -87,7 +76,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_add_transaction"
                 },
                 "titleInformation": {
-                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
+                    "icon": null,
                     "content": "80",
                     "color": "#000000"
                 }
@@ -97,7 +86,7 @@ export default function handler(req, res) {
                 "itemName": "TTTC_CTA",
                 "template": null,
                 "type": "information",
-                "description": "Nhìn lại chi tiêu",
+                "description": "Nhìn lại doanh thu",
                 "subDescription": null,
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/look_back_revenue_bg.png",
                 "quantityLabel": null,
