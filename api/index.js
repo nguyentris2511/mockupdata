@@ -81,7 +81,7 @@ export default function handler(req, res) {
                     "icon": null,
                     "content": "Kiểm tra giao dịch",
                     "color": "#0000FF"
-                },
+                }
             },
             {
                 "itemId": "",
