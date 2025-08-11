@@ -27,7 +27,7 @@ export default function handler(req, res) {
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
                 "quantityLabel": {
                     "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "60.000đ",
+                    "content": "10.000đ",
                     "color": "#008000"
                 },
                 "items": null,
@@ -49,7 +49,7 @@ export default function handler(req, res) {
                 },
                 "titleInformation": {
                     "icon": null,
-                    "content": "60.000đ",
+                    "content": "20.000đ",
                     "color": "#000000"
                 }
             },
@@ -63,7 +63,7 @@ export default function handler(req, res) {
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
                 "quantityLabel": {
                     "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "60.000đ",
+                    "content": "50",
                     "color": "#008000"
                 },
                 "items": null,
@@ -88,7 +88,7 @@ export default function handler(req, res) {
                 },
                 "titleInformation": {
                     "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
-                    "content": "60.000đ",
+                    "content": "80",
                     "color": "#000000"
                 }
             },
