@@ -59,10 +59,7 @@ export default function handler(req, res) {
                     "actions": [
                         {
                             "action_type": "REDIRECT",
-                            "ref_id": "merchant_add_transaction",
-                            "params": {
-                                "targetRef": null
-                            }
+                            "ref_id": "transactions_merchant_template"
                         }
                     ]
                 },
@@ -82,7 +79,7 @@ export default function handler(req, res) {
                 "quantityLabel": {
                     "icon": null,
                     "content": "Kiểm tra giao dịch",
-                    "color": "rgba(0, 0, 255, 1)"
+                    "color": "#EB2F96"
                 }
             },
             {
