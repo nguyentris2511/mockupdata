@@ -1,7 +1,145 @@
 export default function handler(req, res) {
   const { type = 'a' } = req.query;
 
-  const jsonString = `{
+    const jsonStringE = `{
+    "status_code": 200,
+    "message": "Success",
+    "data": {
+        "headerCta": {
+            "ctaType": "ICON",
+            "actions": [
+                {
+                    "action_type": "REDIRECT",
+                    "ref_id": "merchant_financia_assistant"
+                }
+            ]
+        },
+        "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
+        "title": "Trợ thủ tài chính",
+        "itemData": [
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Doanh thu hôm nay",
+                "subDescription": "So với hôm qua",
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
+                "quantityLabel": {
+                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
+                    "content": "60.000đ",
+                    "color": "#008000"
+                },
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_financia_assistant"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_add_transaction",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_add_transaction"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "60.000đ",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Giao dịch hôm nay",
+                "subDescription": "So với cùng ký tuần trước.",
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
+                "quantityLabel": {
+                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
+                    "content": "60.000đ",
+                    "color": "#008000"
+                },
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_add_transaction",
+                            "params": {
+                                "targetRef": null
+                            }
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_add_transaction",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_add_transaction"
+                },
+                "titleInformation": {
+                    "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
+                    "content": "60.000đ",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": "",
+                "itemName": "TTTC_CTA",
+                "template": null,
+                "type": "information",
+                "description": "Nhìn lại chi tiêu",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
+                "quantityLabel": null,
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_revenue_trend",
+                            "params": {
+                                "targetRef": null
+                            }
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_add_transaction",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_add_transaction"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "Tháng 8",
+                    "color": "#000000"
+                }
+            }
+        ]
+    }
+}`;
+const jsObjectE = JSON.parse(jsonStringE);
+
+const jsonStringF = `{
+    "status_code": 200,
+    "message": "Success",
+    "data": null
+}`;
+const jsObjectF = JSON.parse(jsonStringE);
+
+  const jsonStringC = `{
     "status_code": 200,
     "message": "Success",
     "data": {
@@ -138,7 +276,7 @@ export default function handler(req, res) {
         ]
     }
 }`;
-const jsObject = JSON.parse(jsonString);
+const jsObjectC = JSON.parse(jsonStringC);
 
   const responses = {
     a: {
@@ -175,7 +313,7 @@ const jsObject = JSON.parse(jsonString);
         pendingTransCount: 11
       }
     },
-    c: jsObject,
+    c: jsObjectC,
     d: {
       status_code: 200,
       message: "Success",
@@ -323,7 +461,9 @@ const jsObject = JSON.parse(jsonString);
           }
         ]
       }
-    }
+    },
+    e: jsObjectE,
+    f: jsObjectF,
   };
 
   const payload = responses[type];
