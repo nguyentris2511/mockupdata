@@ -14,8 +14,6 @@ export default function handler(req, res) {
                 }
             ]
         },
-        "icon": "https://static.momocdn.net/app/img/icon_new3/expense.png",
-        "title": "Cửa hàng của bạn",
         "itemData": [
             {
                 "itemId": "",
