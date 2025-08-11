@@ -60,7 +60,7 @@ export default function handler(req, res) {
                 "type": "information",
                 "description": "Giao dịch hôm nay",
                 "subDescription": "So với hôm qua",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
                 "quantityLabel": {
                     "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
                     "content": "50",
@@ -99,7 +99,7 @@ export default function handler(req, res) {
                 "type": "information",
                 "description": "Nhìn lại chi tiêu",
                 "subDescription": null,
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_note_revenue.png",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/look_back_revenue_bg.png",
                 "quantityLabel": null,
                 "items": null,
                 "card": {
