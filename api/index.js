@@ -137,7 +137,7 @@ const jsonStringF = `{
     "message": "Success",
     "data": null
 }`;
-const jsObjectF = JSON.parse(jsonStringE);
+const jsObjectF = JSON.parse(jsonStringF);
 
   const jsonStringC = `{
     "status_code": 200,
