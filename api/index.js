@@ -59,7 +59,7 @@ export default function handler(req, res) {
                 "template": null,
                 "type": "information",
                 "description": "Giao dịch hôm nay",
-                "subDescription": "So với cùng ký tuần trước.",
+                "subDescription": "So với hôm qua",
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_default_revenue.png",
                 "quantityLabel": {
                     "icon": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/ic_up_revenue.png",
