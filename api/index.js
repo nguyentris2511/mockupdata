@@ -463,7 +463,7 @@ const jsObjectC = JSON.parse(jsonStringC);
       }
     },
     e: jsObjectE,
-    f: jsObjectF,
+    f: jsObjectF
   };
 
   const payload = responses[type];
