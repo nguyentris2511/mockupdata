@@ -10,7 +10,7 @@ export default function handler(req, res) {
             "actions": [
                 {
                     "action_type": "REDIRECT",
-                    "ref_id": "merchant_financia_assistant"
+                    "ref_id": "merchant_template"
                 }
             ]
         },
