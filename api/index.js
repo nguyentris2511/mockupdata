@@ -76,7 +76,7 @@ export default function handler(req, res) {
                     "content": "80",
                     "color": "#000000"
                 },
-                "subDescription": "Kiểm tra giao dịch",
+                "subDescription": "của bạn",
                 "quantityLabel": {
                     "icon": null,
                     "content": "Kiểm tra giao dịch",
