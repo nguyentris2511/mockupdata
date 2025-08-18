@@ -35,11 +35,11 @@ export default function handler(req, res) {
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_add_transaction",
+                    "service_name": "merchant_revenue_trend",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_add_transaction"
+                    "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
                     "icon": null,
@@ -65,11 +65,11 @@ export default function handler(req, res) {
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_add_transaction",
+                    "service_name": "transactions_merchant_template",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_add_transaction"
+                    "block_name": "transactions_merchant_template"
                 },
                 "titleInformation": {
                     "icon": null,
@@ -106,11 +106,11 @@ export default function handler(req, res) {
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_add_transaction",
+                    "service_name": "merchant_financia_assistant",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_add_transaction"
+                    "block_name": "merchant_financia_assistant"
                 },
                 "titleInformation": {
                     "icon": null,
