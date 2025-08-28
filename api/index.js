@@ -1,6 +1,164 @@
 export default function handler(req, res) {
   const { type = 'a' } = req.query;
 
+    const jsonStringHomeV2 = `{
+    "status_code": 200,
+    "message": "Success",
+    "data": {
+        "headerCta": {
+            "ctaType": "ICON",
+            "actions": [
+                {
+                    "action_type": "REDIRECT",
+                    "ref_id": "merchant_template"
+                }
+            ]
+        },
+        "icon": "https://static.momocdn.net/app/app/DTMM/home_store_icon.png",
+        "title": "Cửa hàng của bạn",
+        "itemData": [
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Doanh thu hôm nay",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_revenue_trend"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_revenue_trend",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_revenue_trend"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "20.000.000đ",
+                    "color": "#ea1392"
+                }
+            },
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Nhận tiền từ Nguyễn Hoàng Trí",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_revenue_trend"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_revenue_trend",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_revenue_trend"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "+50.000đ",
+                    "color": "#0f0f0fff"
+                },
+                "quantityLabel": {
+                    "icon": https://static.momocdn.net/app/app/DTMM/success_icon.png,
+                    "content": "Thành công",
+                    "color": "#3db75b"
+                },
+                "subDescription": "10 giây trước",
+            },
+            {
+                "itemId": "",
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Hoàn tiền cho Trần Thị Huyền Trang",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/fail_bg.png",
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_revenue_trend"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_revenue_trend",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_revenue_trend"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "-1.250.000đ",
+                    "color": "#0f0f0fff"
+                },
+                "quantityLabel": {
+                    "icon": https://static.momocdn.net/app/app/DTMM/success_icon.png,
+                    "content": "Thất bại",
+                    "color": "#f5222d"
+                },
+                "subDescription": "10 giây trước",
+            },
+            {
+                "itemId": "",
+                "itemName": "TTTC_CTA",
+                "template": null,
+                "type": "information",
+                "description": "Nhìn lại doanh thu",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/look_back_revenue_bg.png",
+                "quantityLabel": null,
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_financia_assistant",
+                            "params": {
+                                "targetRef": null
+                            }
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_financia_assistant",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_financia_assistant"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "Tháng 8",
+                    "color": "#ea1392"
+                }
+            }
+        ]
+    }
+}`;
+const jsHOMEV2 = JSON.parse(jsonStringHomeV2);
+
     const jsonStringE = `{
     "status_code": 200,
     "message": "Success",
@@ -456,7 +614,8 @@ const jsObjectC = JSON.parse(jsonStringC);
       }
     },
     e: jsObjectE,
-    f: jsObjectF
+    f: jsObjectF,
+    g: jsHOMEV2
   };
 
   const payload = responses[type];
