@@ -81,7 +81,7 @@ export default function handler(req, res) {
                     "content": "Thành công",
                     "color": "#3db75b"
                 },
-                "subDescription": "10 giây trước",
+                "subDescription": "10 giây trước"
             },
             {
                 "itemId": "",
