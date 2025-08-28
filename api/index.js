@@ -77,7 +77,7 @@ export default function handler(req, res) {
                     "color": "#0f0f0fff"
                 },
                 "quantityLabel": {
-                    "icon": https://static.momocdn.net/app/app/DTMM/success_icon.png,
+                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
                     "content": "Thành công",
                     "color": "#3db75b"
                 },
@@ -113,11 +113,11 @@ export default function handler(req, res) {
                     "color": "#0f0f0fff"
                 },
                 "quantityLabel": {
-                    "icon": https://static.momocdn.net/app/app/DTMM/success_icon.png,
+                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
                     "content": "Thất bại",
                     "color": "#f5222d"
                 },
-                "subDescription": "10 giây trước",
+                "subDescription": "10 giây trước"
             },
             {
                 "itemId": "",
