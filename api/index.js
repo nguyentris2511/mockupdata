@@ -117,7 +117,7 @@ export default function handler(req, res) {
                     "content": "Thất bại",
                     "color": "#f5222d"
                 },
-                "subDescription": "10 giây trước"
+                "subDescription": "14:35 21/08/2025"
             },
             {
                 "itemId": "",
