@@ -40,12 +40,12 @@ export default function handler(req, res) {
                     "component_name": "widget_native",
                     "component_type": "widget",
                     "block_name": "merchant_revenue_trend"
-                },
-                "titleInformation": {
-                    "icon": null,
-                    "content": "20.000.000đ",
-                    "color": "#ea1392"
                 }
+                // "titleInformation": {
+                //     "icon": null,
+                //     "content": "20.000.000đ",
+                //     "color": "#ea1392"
+                // }
             },
             {
                 "itemId": "",
