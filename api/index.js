@@ -19,7 +19,7 @@ export default function handler(req, res) {
         "itemData": [
             {
                 "itemId": "",
-                "itemName": "TTTC",
+                "itemName": "",
                 "template": "",
                 "type": "information",
                 "description": "Doanh thu hôm nay",
@@ -49,7 +49,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": "",
-                "itemName": "TTTC2",
+                "itemName": "",
                 "template": "",
                 "type": "information",
                 "description": "Nhận tiền từ Nguyễn Hoàng Trí",
@@ -85,7 +85,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": "",
-                "itemName": "TTTC3",
+                "itemName": "",
                 "template": "",
                 "type": "information",
                 "description": "Hoàn tiền cho Trần Thị Huyền Trang",
