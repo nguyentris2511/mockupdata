@@ -19,12 +19,12 @@ export default function handler(req, res) {
         "itemData": [
             {
                 "itemId": "",
-                "itemName": null,
-                "template": null,
+                "itemName": "TTTC",
+                "template": "",
                 "type": "information",
                 "description": "Doanh thu hôm nay",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
-                "items": null,
+                "items": "",
                 "card": {
                     "actions": [
                         {
@@ -42,19 +42,19 @@ export default function handler(req, res) {
                     "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
-                    "icon": null,
+                    "icon": "",
                     "content": "20.000.000đ",
                     "color": "#ea1392"
                 }
             },
             {
                 "itemId": "",
-                "itemName": null,
-                "template": null,
+                "itemName": "TTTC2",
+                "template": "",
                 "type": "information",
                 "description": "Nhận tiền từ Nguyễn Hoàng Trí",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
-                "items": null,
+                "items": "",
                 "card": {
                     "actions": [
                         {
@@ -72,7 +72,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
-                    "icon": null,
+                    "icon": "",
                     "content": "+50.000đ",
                     "color": "#0f0f0fff"
                 },
@@ -85,12 +85,12 @@ export default function handler(req, res) {
             },
             {
                 "itemId": "",
-                "itemName": null,
-                "template": null,
+                "itemName": "TTTC3",
+                "template": "",
                 "type": "information",
                 "description": "Hoàn tiền cho Trần Thị Huyền Trang",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/fail_bg.png",
-                "items": null,
+                "items": "",
                 "card": {
                     "actions": [
                         {
@@ -108,7 +108,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
-                    "icon": null,
+                    "icon": "",
                     "content": "-1.250.000đ",
                     "color": "#0f0f0fff"
                 },
@@ -122,20 +122,20 @@ export default function handler(req, res) {
             {
                 "itemId": "",
                 "itemName": "TTTC_CTA",
-                "template": null,
+                "template": "",
                 "type": "information",
                 "description": "Nhìn lại doanh thu",
-                "subDescription": null,
+                "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/look_back_revenue_bg.png",
-                "quantityLabel": null,
-                "items": null,
+                "quantityLabel": "",
+                "items": "",
                 "card": {
                     "actions": [
                         {
                             "action_type": "REDIRECT",
                             "ref_id": "merchant_financia_assistant",
                             "params": {
-                                "targetRef": null
+                                "targetRef": ""
                             }
                         }
                     ]
@@ -149,7 +149,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_financia_assistant"
                 },
                 "titleInformation": {
-                    "icon": null,
+                    "icon": "",
                     "content": "Tháng 8",
                     "color": "#ea1392"
                 }
