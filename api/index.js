@@ -24,24 +24,31 @@ export default function handler(req, res) {
                 "description": "Doanh thu hôm nay",
                 "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
+                "quantityLabel": {
+                    "icon": null,
+                    "content": null,
+                    "color": null
+                },
+                "items": [],
                 "card": {
                     "actions": [
                         {
                             "action_type": "REDIRECT",
-                            "ref_id": "merchant_revenue_trend"
+                            "ref_id": "transactions_merchant_template"
                         }
                     ]
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_revenue_trend",
+                    "service_name": "transactions_merchant_template",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_revenue_trend"
+                    "block_name": "transactions_merchant_template"
                 },
                 "titleInformation": {
-                    "content": "5000000",
+                    "icon": null,
+                    "content": "Đang cập nhật",
                     "color": "#000000"
                 }
             },
@@ -58,11 +65,12 @@ export default function handler(req, res) {
                     "content": "Thành công",
                     "color": "#37b657"
                 },
+                "items": [],
                 "card": {
                     "actions": [
                         {
                             "params": {
-                            "params":"3994846289"
+                                "targetRef": "3994846289"
                             },
                             "action_type": "REDIRECT",
                             "ref_id": "transaction_detail"
@@ -96,9 +104,13 @@ export default function handler(req, res) {
                     "content": "Thành công",
                     "color": "#37b657"
                 },
+                "items": [],
                 "card": {
                     "actions": [
                         {
+                            "params": {
+                                "targetRef": "3994846283"
+                            },
                             "action_type": "REDIRECT",
                             "ref_id": "transaction_detail"
                         }
@@ -113,6 +125,7 @@ export default function handler(req, res) {
                     "block_name": "transaction_detail"
                 },
                 "titleInformation": {
+                    "icon": null,
                     "content": "390.000đ",
                     "color": "#000000"
                 }
@@ -125,6 +138,12 @@ export default function handler(req, res) {
                 "description": "Nhìn lại doanh thu",
                 "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
+                "quantityLabel": {
+                    "icon": null,
+                    "content": null,
+                    "color": null
+                },
+                "items": [],
                 "card": {
                     "actions": [
                         {
@@ -142,6 +161,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_financia_assistant"
                 },
                 "titleInformation": {
+                    "icon": null,
                     "content": "Tháng 9",
                     "color": "#ea1392"
                 }
