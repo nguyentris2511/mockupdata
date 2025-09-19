@@ -30,11 +30,9 @@ export default function handler(req, res) {
                     "content": null,
                     "color": null
                 },
-                "items": null,
                 "card": {
                     "actions": [
                         {
-                            "params": null,
                             "action_type": "REDIRECT",
                             "ref_id": "transactions_merchant_template"
                         }
@@ -67,11 +65,9 @@ export default function handler(req, res) {
                     "content": null,
                     "color": null
                 },
-                "items": null,
                 "card": {
                     "actions": [
                         {
-                            "params": null,
                             "action_type": "REDIRECT",
                             "ref_id": "merchant_financia_assistant"
                         }
