@@ -19,7 +19,7 @@ export default function handler(req, res) {
         "itemData": [
             {
                 "itemId": null,
-                "itemName": null,
+                "itemName": "",
                 "template": null,
                 "type": "information",
                 "description": "Doanh thu hôm nay",
@@ -52,7 +52,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": null,
-                "itemName": null,
+                "itemName": "",
                 "template": null,
                 "type": "information",
                 "description": "Nhận từ Ma Hoang Tam",
@@ -89,7 +89,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": null,
-                "itemName": null,
+                "itemName": "",
                 "template": null,
                 "type": "information",
                 "description": "Nhận từ Ma Hoang Tam",
@@ -126,7 +126,7 @@ export default function handler(req, res) {
             },
             {
                 "itemId": null,
-                "itemName": null,
+                "itemName": "",
                 "template": null,
                 "type": "information",
                 "description": "Nhìn lại doanh thu",
