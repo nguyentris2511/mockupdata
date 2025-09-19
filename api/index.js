@@ -104,7 +104,6 @@ export default function handler(req, res) {
                 "card": {
                     "actions": [
                         {
-                            "params": "3994846283",
                             "action_type": "REDIRECT",
                             "ref_id": "transaction_detail"
                         }
