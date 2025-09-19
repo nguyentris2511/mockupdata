@@ -51,44 +51,8 @@ export default function handler(req, res) {
                     "content": "Đang cập nhật",
                     "color": "#000000"
                 }
-            },
-            {
-                "itemId": "",
-                "itemName": "",
-                "template": "",
-                "type": "information",
-                "description": "Nhìn lại doanh thu",
-                "subDescription": "",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
-                "quantityLabel": {
-                    "icon": null,
-                    "content": null,
-                    "color": null
-                },
-                "card": {
-                    "actions": [
-                        {
-                            "action_type": "REDIRECT",
-                            "ref_id": "merchant_financia_assistant"
-                        }
-                    ]
-                },
-                "trackify": {
-                    "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_financia_assistant",
-                    "screen_name": "momo_home",
-                    "component_name": "widget_native",
-                    "component_type": "widget",
-                    "block_name": "merchant_financia_assistant"
-                },
-                "titleInformation": {
-                    "icon": null,
-                    "content": "Tháng 9",
-                    "color": "#ea1392"
-                }
             }
-        ],
-        "status": null
+        ]
     },
     "status_code": 200
 }`;
