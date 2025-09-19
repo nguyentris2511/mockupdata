@@ -27,7 +27,6 @@ export default function handler(req, res) {
                 "card": {
                     "actions": [
                         {
-                            "params": null,
                             "action_type": "REDIRECT",
                             "ref_id": "merchant_revenue_trend"
                         }
@@ -42,7 +41,7 @@ export default function handler(req, res) {
                     "block_name": "merchant_revenue_trend"
                 },
                 "titleInformation": {
-                    "content": "Đang cập nhật",
+                    "content": "5000000",
                     "color": "#000000"
                 }
             },
