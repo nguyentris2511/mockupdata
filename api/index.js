@@ -18,9 +18,9 @@ export default function handler(req, res) {
         "title": "Cửa hàng của bạn",
         "itemData": [
             {
-                "itemId": null,
+                "itemId": "",
                 "itemName": "",
-                "template": null,
+                "template": "",
                 "type": "information",
                 "description": "Doanh thu hôm nay",
                 "subDescription": null,
@@ -51,9 +51,9 @@ export default function handler(req, res) {
                 }
             },
             {
-                "itemId": null,
+                "itemId": "",
                 "itemName": "",
-                "template": null,
+                "template": "",
                 "type": "information",
                 "description": "Nhận từ Ma Hoang Tam",
                 "subDescription": "11:30 01/03/2024",
@@ -88,9 +88,9 @@ export default function handler(req, res) {
                 }
             },
             {
-                "itemId": null,
+                "itemId": "",
                 "itemName": "",
-                "template": null,
+                "template": "",
                 "type": "information",
                 "description": "Nhận từ Ma Hoang Tam",
                 "subDescription": "11:30 01/03/2024",
