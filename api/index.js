@@ -97,19 +97,19 @@ export default function handler(req, res) {
                 "template": "",
                 "type": "information",
                 "description": "Nhận từ Ma Hoang Tam",
-                "subDescription": "11:30 01/03/2024",
-                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
+                "subDescription": "16:03 26/01/2024",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/fail_bg.png",
                 "quantityLabel": {
-                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
-                    "content": "Thành công",
-                    "color": "#37b657"
+                    "icon": "https://static.momocdn.net/app/app/DTMM/fail_icon.png",
+                    "content": "Thất bại",
+                    "color": "#EB2F96"
                 },
                 "items": [],
                 "card": {
                     "actions": [
                         {
                             "params": {
-                                "targetRef": "3994846283"
+                                "targetRef": "3164241049"
                             },
                             "action_type": "REDIRECT",
                             "ref_id": "transaction_detail"
@@ -126,8 +126,8 @@ export default function handler(req, res) {
                 },
                 "titleInformation": {
                     "icon": null,
-                    "content": "390.000đ",
-                    "color": "#000000"
+                    "content": "1.016.500đ",
+                    "color": "#303233"
                 }
             },
             {
