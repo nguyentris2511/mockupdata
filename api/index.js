@@ -1,6 +1,169 @@
 export default function handler(req, res) {
   const { type = 'a' } = req.query;
 
+    const jsonStringHomesrc = `{
+    "message": "Success",
+    "data": {
+        "headerCta": {
+            "ctaType": "ICON",
+            "actions": [
+                {
+                    "params": null,
+                    "action_type": "REDIRECT",
+                    "ref_id": "merchant_template"
+                }
+            ]
+        },
+        "icon": "https://static.momocdn.net/app/app/DTMM/merchant_template.png",
+        "title": "Cửa hàng của bạn",
+        "itemData": [
+            {
+                "itemId": null,
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Doanh thu hôm nay",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
+                "quantityLabel": null,
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "params": null,
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_revenue_trend"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_revenue_trend",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_revenue_trend"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "Đang cập nhật",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": null,
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Nhận từ Ma Hoang Tam",
+                "subDescription": "11:30 01/03/2024",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
+                "quantityLabel": {
+                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
+                    "content": "Thành công",
+                    "color": "#37b657"
+                },
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "params": "3994846289",
+                            "action_type": "REDIRECT",
+                            "ref_id": "transaction_detail"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "transaction_detail",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "transaction_detail"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "150.000đ",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": null,
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Nhận từ Ma Hoang Tam",
+                "subDescription": "11:30 01/03/2024",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
+                "quantityLabel": {
+                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
+                    "content": "Thành công",
+                    "color": "#37b657"
+                },
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "params": "3994846283",
+                            "action_type": "REDIRECT",
+                            "ref_id": "transaction_detail"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "transaction_detail",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "transaction_detail"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "390.000đ",
+                    "color": "#000000"
+                }
+            },
+            {
+                "itemId": null,
+                "itemName": null,
+                "template": null,
+                "type": "information",
+                "description": "Nhìn lại doanh thu",
+                "subDescription": null,
+                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
+                "quantityLabel": null,
+                "items": null,
+                "card": {
+                    "actions": [
+                        {
+                            "params": null,
+                            "action_type": "REDIRECT",
+                            "ref_id": "merchant_financia_assistant"
+                        }
+                    ]
+                },
+                "trackify": {
+                    "app_id": "vn.momo.tttc",
+                    "service_name": "merchant_financia_assistant",
+                    "screen_name": "momo_home",
+                    "component_name": "widget_native",
+                    "component_type": "widget",
+                    "block_name": "merchant_financia_assistant"
+                },
+                "titleInformation": {
+                    "icon": null,
+                    "content": "Tháng 9",
+                    "color": "#ea1392"
+                }
+            }
+        ],
+        "status": null
+    },
+    "status_code": 200
+}`;
+const jsHOMEsrc = JSON.parse(jsonStringHomesrc);
+
     const jsonStringHomeV2 = `{
     "status_code": 200,
     "message": "Success",
@@ -615,7 +778,8 @@ const jsObjectC = JSON.parse(jsonStringC);
     },
     e: jsObjectE,
     f: jsObjectF,
-    g: jsHOMEV2
+    g: jsHOMEV2,
+    g: jsHOMEsrc
   };
 
   const payload = responses[type];
