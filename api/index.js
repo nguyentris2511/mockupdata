@@ -779,7 +779,7 @@ const jsObjectC = JSON.parse(jsonStringC);
     e: jsObjectE,
     f: jsObjectF,
     g: jsHOMEV2,
-    g: jsHOMEsrc
+    h: jsHOMEsrc
   };
 
   const payload = responses[type];
