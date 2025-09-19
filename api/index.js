@@ -137,7 +137,7 @@ export default function handler(req, res) {
                 "type": "information",
                 "description": "Nhìn lại doanh thu",
                 "subDescription": "",
-                "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
+                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/look_back_revenue_bg.png",
                 "quantityLabel": {
                     "icon": null,
                     "content": null,
