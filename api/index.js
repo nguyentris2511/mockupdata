@@ -102,7 +102,7 @@ export default function handler(req, res) {
                 "quantityLabel": {
                     "icon": "https://static.momocdn.net/app/app/DTMM/fail_icon.png",
                     "content": "Thất bại",
-                    "color": "#EB2F96"
+                    "color": "#f52a34"
                 },
                 "items": [],
                 "card": {
