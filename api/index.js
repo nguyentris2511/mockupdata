@@ -23,26 +23,30 @@ export default function handler(req, res) {
                 "template": "",
                 "type": "information",
                 "description": "Doanh thu hôm nay",
-                "subDescription": null,
+                "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
-                "quantityLabel": {},
+                "quantityLabel": {
+                    "icon": null,
+                    "content": null,
+                    "color": null
+                },
                 "items": null,
                 "card": {
                     "actions": [
                         {
                             "params": null,
                             "action_type": "REDIRECT",
-                            "ref_id": "merchant_revenue_trend"
+                            "ref_id": "transactions_merchant_template"
                         }
                     ]
                 },
                 "trackify": {
                     "app_id": "vn.momo.tttc",
-                    "service_name": "merchant_revenue_trend",
+                    "service_name": "transactions_merchant_template",
                     "screen_name": "momo_home",
                     "component_name": "widget_native",
                     "component_type": "widget",
-                    "block_name": "merchant_revenue_trend"
+                    "block_name": "transactions_merchant_template"
                 },
                 "titleInformation": {
                     "icon": null,
@@ -55,83 +59,14 @@ export default function handler(req, res) {
                 "itemName": "",
                 "template": "",
                 "type": "information",
-                "description": "Nhận từ Ma Hoang Tam",
-                "subDescription": "11:30 01/03/2024",
-                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
-                "quantityLabel": {
-                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
-                    "content": "Thành công",
-                    "color": "#37b657"
-                },
-                "items": null,
-                "card": {
-                    "actions": [
-                        {
-                            "params": "3994846289",
-                            "action_type": "REDIRECT",
-                            "ref_id": "transaction_detail"
-                        }
-                    ]
-                },
-                "trackify": {
-                    "app_id": "vn.momo.tttc",
-                    "service_name": "transaction_detail",
-                    "screen_name": "momo_home",
-                    "component_name": "widget_native",
-                    "component_type": "widget",
-                    "block_name": "transaction_detail"
-                },
-                "titleInformation": {
-                    "icon": null,
-                    "content": "150.000đ",
-                    "color": "#000000"
-                }
-            },
-            {
-                "itemId": "",
-                "itemName": "",
-                "template": "",
-                "type": "information",
-                "description": "Nhận từ Ma Hoang Tam",
-                "subDescription": "11:30 01/03/2024",
-                "backgroundImage": "https://static.momocdn.net/app/app/DTMM/succes_bg.png",
-                "quantityLabel": {
-                    "icon": "https://static.momocdn.net/app/app/DTMM/success_icon.png",
-                    "content": "Thành công",
-                    "color": "#37b657"
-                },
-                "items": null,
-                "card": {
-                    "actions": [
-                        {
-                            "action_type": "REDIRECT",
-                            "ref_id": "transaction_detail"
-                        }
-                    ]
-                },
-                "trackify": {
-                    "app_id": "vn.momo.tttc",
-                    "service_name": "transaction_detail",
-                    "screen_name": "momo_home",
-                    "component_name": "widget_native",
-                    "component_type": "widget",
-                    "block_name": "transaction_detail"
-                },
-                "titleInformation": {
-                    "icon": null,
-                    "content": "390.000đ",
-                    "color": "#000000"
-                }
-            },
-            {
-                "itemId": "",
-                "itemName": "",
-                "template": "",
-                "type": "information",
                 "description": "Nhìn lại doanh thu",
-                "subDescription": null,
+                "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
-                "quantityLabel": {},
+                "quantityLabel": {
+                    "icon": null,
+                    "content": null,
+                    "color": null
+                },
                 "items": null,
                 "card": {
                     "actions": [
