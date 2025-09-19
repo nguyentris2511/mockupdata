@@ -8,7 +8,6 @@ export default function handler(req, res) {
             "ctaType": "ICON",
             "actions": [
                 {
-                    "params": null,
                     "action_type": "REDIRECT",
                     "ref_id": "merchant_template"
                 }
@@ -25,11 +24,6 @@ export default function handler(req, res) {
                 "description": "Doanh thu hôm nay",
                 "subDescription": "",
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
-                "quantityLabel": {
-                    "icon": null,
-                    "content": null,
-                    "color": null
-                },
                 "card": {
                     "actions": [
                         {
