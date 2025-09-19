@@ -125,9 +125,9 @@ export default function handler(req, res) {
                 }
             },
             {
-                "itemId": null,
+                "itemId": "",
                 "itemName": "",
-                "template": null,
+                "template": "",
                 "type": "information",
                 "description": "Nhìn lại doanh thu",
                 "subDescription": null,
