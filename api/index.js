@@ -127,7 +127,7 @@ export default function handler(req, res) {
                 "titleInformation": {
                     "icon": null,
                     "content": "1.016.500đ",
-                    "color": "#c6c6c6"
+                    "color": "#706f6f"
                 }
             },
             {
