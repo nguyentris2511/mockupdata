@@ -25,7 +25,7 @@ export default function handler(req, res) {
                 "description": "Doanh thu hôm nay",
                 "subDescription": null,
                 "backgroundImage": "https://static.momocdn.net/app/app/DTMM/trend_bg.png",
-                "quantityLabel": null,
+                "quantityLabel": {},
                 "items": null,
                 "card": {
                     "actions": [
@@ -132,7 +132,7 @@ export default function handler(req, res) {
                 "description": "Nhìn lại doanh thu",
                 "subDescription": null,
                 "backgroundImage": "https://static.momocdn.net/files/bWVyY2hhbnR0ZW1wbGF0ZQ==/image/bg_revenue.png",
-                "quantityLabel": null,
+                "quantityLabel": {},
                 "items": null,
                 "card": {
                     "actions": [
